@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafb;
+    color: #333;
+  }
+  
+  header {
+    background-color: #111827;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .project {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .project h3 {
+    margin-top: 0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111827;
+    color: white;
+  }
+  
+  /* Profile photo */
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* About, Education, Skills, and Contact Sections */
+  #education ul, #skills ul, #contact p, #about p, #projects ul{
+    padding-left: 20px;
+    list-style-type: disc;
+    line-height: 1.6;
+  }
+  
+  .skills-list li {
+    margin-bottom: 5px;
+  }
+  
+  #education a, #skills a, #about a, #contact a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #111827;
+  }
+  
+  #education a:hover, #skills a:hover, #about a:hover, #contact a:hover {
+    text-decoration: underline;
+  }
+  
